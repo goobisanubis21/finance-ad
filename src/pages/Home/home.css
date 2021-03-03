@@ -1,5 +1,16 @@
 .imgDiv {
     overflow: hidden;
+    position: relative;
+}
+
+.imgDiv:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(47, 47, 47, 0.25);
 }
 
 .boat {
@@ -12,9 +23,9 @@
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    opacity: 45%;
     text-align: center;
     background-color: rgb(48, 48, 124) !important;
+    opacity: 85%;
 }
 
 .boxDivs {
@@ -41,7 +52,7 @@
     text-align: center;
     width: 150px;
     margin-top: 60px;
-    opacity: 60%;
+    opacity: 85%;
     background-color: rgb(48, 48, 124) !important;
     color: white;
 }
@@ -95,6 +106,7 @@
 .annuityBtn {
     text-align: center;
     margin-top: 20px;
+    position: relative;
 }
 
 .annuityBtn button {
@@ -117,4 +129,95 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.businessTitle h4 {
+    margin-top: 40px;
+}
+
+.iconsDiv {
+    display: flex;
+}
+.iconsDiv2 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.iconsCard {
+    text-align: center;
+    width: 300px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.pTitles {
+    font-size: 25px;
+    color: rgb(78, 144, 146);
+}
+
+@media screen and (max-width: 1000px) {
+    .iconsDiv {
+        display: block;
+    }
+    .iconsDiv2 {
+        display: block;
+    }
+}
+
+.mainFormDiv {
+    background-image: url("https://www.northstarmeetingsgroup.com/uploadedImages/Articles/News/Industry/Skyline-Bridge-Brooklyn-NYC-Julienne-Schaer(1).jpg?width=920&scale=both&mode=crop");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.mainFormDiv:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(47, 47, 47, 0.55);
+}
+
+.userForm {
+    width: 360px;
+    text-align: center;
+    background-color: rgb(54, 118, 138) !important;
+}
+
+.userForm form input {
+    display: flex;
+    width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.userForm form select {
+    display: flex;
+    width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.userForm form label {
+    color: white;
+    font-size: 20px;
+}
+
+.userForm form button {
+    color: white;
+    font-weight: 600;
+    background-color: darkgoldenrod;
+    width: 180px;
+    height: 50px;
+}
+
+.required:after {
+    content: "*";
+    color: red;
 }

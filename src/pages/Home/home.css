@@ -170,6 +170,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    height: 703px;
 }
 
 .mainFormDiv:before {
@@ -186,11 +187,13 @@
     width: 360px;
     text-align: center;
     background-color: rgb(54, 118, 138) !important;
+    margin-left: auto;
+    margin-right: 100px;
 }
 
 .userForm form input {
     display: flex;
-    width: 240px;
+    width: 280px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
@@ -212,7 +215,7 @@
 .userForm form button {
     color: white;
     font-weight: 600;
-    background-color: darkgoldenrod;
+    background-color: rgb(23, 26, 80);
     width: 180px;
     height: 50px;
 }
@@ -220,4 +223,124 @@
 .required:after {
     content: "*";
     color: red;
+}
+
+.antMorg {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    width: 400px;
+    font-weight: 700;
+}
+
+.testi {
+    margin-top: -630px;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+    .userForm {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .testi {
+        margin-top: 60px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .antMorg {
+        color: black;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.earnDiv {
+    width: 80%;
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.earnTitle {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(82, 82, 82);
+}
+
+.earnText {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .earnDiv {
+        margin-top: 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .earnDiv {
+        margin-top: 600px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .earnDiv {
+        margin-top: 700px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .earnDiv {
+        margin-top: 800px;
+    }
+}
+
+.beniList {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.beniTitle {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(23, 26, 80);
+    font-weight: 500;
+}
+
+.beniUL {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 560px) {
+    .beniList {
+        width: 300px;
+    }
+}
+
+.whatIsAnnuDiv {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.whatIsAnnuTitle {
+    font-size: 26px;
+    color: rgb(23, 26, 80);
+    font-weight: 500;
+}
+
+.whatIsAnnuText {
+    font-size: 18px;
+    font-weight: 500;
 }

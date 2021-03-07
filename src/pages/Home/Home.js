@@ -120,6 +120,48 @@ function Home() {
                         </form>
                     </div>
                 </div>
+                <div className="testi">
+                    <div>
+                        <p className="antMorg">"I was impressed with the level of knowledge they had. The growth annuity we ended up getting was perfect for our retirement plan and we didn't have to replace our other advisors to work with them."</p>
+                        <p className="antMorg">- Anthony and Morgan Parrino Belmar, New Jersey</p>
+                    </div>
+                    <div>
+                        <p className="antMorg">"They showed me how to protect a significant portion of my assets while still getting serious growth using annuities. I highly recommend them to anyone looking to add some safety to their plan without having to keep money in the bank at .5%!"</p>
+                        <p className="antMorg">- Kevin and Katie Clark Ocean Township, New Jersey</p>
+                    </div>
+                    <div>
+                        <p className="antMorg">"They definitely know their stuff! I finally have peace of mind knowing my money is safe."</p>
+                        <p className="antMorg">- Michael and Jennifer Clayton Colts Neck, New Jersey</p>
+                    </div>
+                </div>
+            </div>
+            <div className="earnDiv">
+                <p className="earnTitle">Earn Market-Like Returns Without The Market-Like Volatility</p>
+                <p className="earnText">Grow your wealth risk-free starting today.</p>
+            </div>
+            <div className="beniList">
+                <p className="beniTitle">Enjoy All The Benefits That Top Annuities Have To Offer</p>
+                <ul className="beniUL">
+                    <li>Financially Secure A+ Rated Insurance Companies</li>
+                    <li>Up to 40% More Guaranteed Lifetime Income</li>
+                    <li>Uncapped Annual Growth</li>
+                    <li>Zero Risk</li>
+                    <li>Zero Fees</li>
+                    <li>Full Protection from Stock Market Losses</li>
+                    <li>Tax Deferral of All Gains </li>
+                </ul>
+            </div>
+            <div className="whatIsAnnuDiv">
+                <div>
+                    <p className="whatIsAnnuTitle">What is an Annuity?</p>
+                    <p className="whatIsAnnuText">An annuity is a contract between you and an insurance company that allows your earnings to grow tax-deferred. Annuities are a popular choice for investors who want to receive a steady stream of income in retirement. The income you receive can be paid out monthly, quarterly, annually or even as a lump sum payment. If you choose to defer the income then your money will grow tax-deferred.  It is also an excellent spot to put money with no downside risk, only upside potential.</p>
+                </div>
+                <div>
+                    <p className="whatIsAnnuTitle">What can an Annuity do for ME?</p>
+                    <p className="whatIsAnnuText"><strong>Growth Potential - </strong>A fixed index annuity has the potential for higher earnings than a traditional fixed annuity with a guaranteed minimum rate. There’s also no direct downside market risk to your money. Your principal is protected from market fluctuations.</p>
+                    <p className="whatIsAnnuText"><strong>Helps you sleep better - </strong>An annuity can help you protect and grow your money on a tax-deferred basis and can guarantee you’ll never lose that money for life. So no matter how volatile the markets are, you have a pool of money that can go in only one direction: UP.</p>
+                    <p className="whatIsAnnuText"><strong>Fills in the gaps - </strong>Sometimes pensions, IRAs and Social Security don’t provide enough income for you to live the way you want during retirement. A fixed index annuity can help supplement your retirement income.</p>
+                </div>
             </div>
         </div>
     )

@@ -1,8 +1,23 @@
 import React from 'react';
-import Boat from "./bluewater.jpg"
-import "./home.css"
+import Boat from "./bluewater.jpg";
+import "./home.css";
+import emailjs from "emailjs-com";
 
 function Home() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm(process.env.REACT_APP_ID1, process.env.REACT_APP_ID2, e.target, process.env.REACT_APP_ID3)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset()
+            alert("Your Email has been sent!")
+    }
+
     return (
         <div>
             <div>
@@ -95,7 +110,7 @@ function Home() {
             <div className="mainFormDiv">
                 <div className=" card userForm">
                     <div className="card-body">
-                        <form>
+                        <form onSubmit={sendEmail}>
                             <label className="required">First Name</label>
                             <input type="text" placeholder="First Name" name="first_name" required></input>
                             <label className="required">Last Name</label>

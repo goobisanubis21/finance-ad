@@ -18,13 +18,14 @@ function Home() {
                 <div className="boxDivs">
                     <div className="card percentageBox leftBox">
                         <div className="card-body">
-                            <p>8.1%</p>
-                            <p>Avg ROR</p>
+                            <p className="bigandthick">8.1%</p>
+                            <p>Average Return</p>
                         </div>
                     </div>
                     <div className="card percentageBox rightBox">
                         <div className="card-body">
-                            <p>A Rated Companies</p>
+                            <p className="bigandthick">A+</p>
+                            <p>Rated Companies</p>
                         </div>
                     </div>
                 </div>
@@ -35,9 +36,9 @@ function Home() {
             <div className="businessTitle">
                 <h1>Abrahamsen Financial Group</h1>
                 <h4>Annuity Specialists</h4>
-                <h6>Ranked by Forbes as one of The Top 10 Most Dependable Wealth Managers in the Mid- Atlantic Region, with the largest national network of over 200+ insurance companies,  Abrahamsen Financial Group has direct access to the Top A Rated Annuities in the United States. No other company can match our strength which ensures that you always get the best value for your money.</h6>
+                <h6>Ranked as one of The Top 10 Most Dependable Wealth Managers in the Mid-Atlantic Region, as published by Forbes, with the largest national network of over 200+ insurance companies,  Abrahamsen Financial Group has direct access to the Top A Rated Annuities in the United States. No other company can match our strength which ensures that you always get the best value for your money.</h6>
                 <div>
-                    <h4>To you It's more than an annuity, it's your retirement.</h4>
+                    <h4 className="italics">To you it's more than an annuity, it's your retirement.</h4>
                 </div>
             </div>
             <div className="iconsDiv">
@@ -52,7 +53,7 @@ function Home() {
                 <div className="card iconsCard">
                     <div className="card-body">
                         <img src="https://d9hhrg4mnvzow.cloudfront.net/info.annuityalliance.com/2021_highest_rates_d/3870ca1a-goodbank-lock_1000000000000000000028.png" alt="money"></img>
-                        <p className="pTitles">Protext your Gains</p>
+                        <p className="pTitles">Protect your Gains</p>
                         <p>Enjoy market-like growth without the market volatility. 100% of your money is protected with guarantees.</p>
                     </div>
                 </div>
@@ -79,7 +80,7 @@ function Home() {
                     <div className="card-body">
                         <img src="https://d9hhrg4mnvzow.cloudfront.net/info.annuityalliance.com/2021_highest_rates_d/d023236b-goodbank-easy_1000000000000000000028.png" alt="money"></img>
                         <p className="pTitles">Retirement Income Report</p>
-                        <p>We can analyze your retirement income strategy for free.We help people Reduce the following: Market, Risk, Taxes and Fees.</p> <p>We help people Increase the following: Growth, Protection, Income and Inflation Hedge.</p>
+                        <p>We can analyze your retirement income strategy for free.</p> <p>We help people Reduce the following: Market Risk, Taxes, and Fees.</p> <p>We help people Increase the following: Growth, Protection, Income, and Inflation Hedge.</p>
                     </div>
                 </div>
 
@@ -116,22 +117,22 @@ function Home() {
                                 <option value="$1,000,000 - $2,000,000">$1,000,000 - $2,000,000</option>
                                 <option value="Multiple Seven Figures">Multiple Seven Figures</option>
                             </select>
-                            <button type="submit">Get My Report</button>
+                            <button>Find The Right Annuity!</button>
                         </form>
                     </div>
                 </div>
                 <div className="testi">
                     <div>
                         <p className="antMorg">"I was impressed with the level of knowledge they had. The growth annuity we ended up getting was perfect for our retirement plan and we didn't have to replace our other advisors to work with them."</p>
-                        <p className="antMorg">- Anthony and Morgan Parrino Belmar, New Jersey</p>
+                        <p className="antMorg">- Anthony and Morgan Parrino</p> <p className="antMorgcity">Belmar, New Jersey</p>
                     </div>
                     <div>
                         <p className="antMorg">"They showed me how to protect a significant portion of my assets while still getting serious growth using annuities. I highly recommend them to anyone looking to add some safety to their plan without having to keep money in the bank at .5%!"</p>
-                        <p className="antMorg">- Kevin and Katie Clark Ocean Township, New Jersey</p>
+                        <p className="antMorg">- Kevin and Katie Clark</p> <p className="antMorgcity"> Ocean Township, New Jersey</p>
                     </div>
                     <div>
                         <p className="antMorg">"They definitely know their stuff! I finally have peace of mind knowing my money is safe."</p>
-                        <p className="antMorg">- Michael and Jennifer Clayton Colts Neck, New Jersey</p>
+                        <p className="antMorg">- Michael and Jennifer Clayton</p> <p className="antMorgcity"> Colts Neck, New Jersey</p>
                     </div>
                 </div>
             </div>
@@ -149,6 +150,7 @@ function Home() {
                     <li>Zero Fees</li>
                     <li>Full Protection from Stock Market Losses</li>
                     <li>Tax Deferral of All Gains </li>
+                    <li>RMD Distribution Planning</li>
                 </ul>
             </div>
             <div className="whatIsAnnuDiv">

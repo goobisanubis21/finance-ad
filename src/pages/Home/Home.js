@@ -18,6 +18,11 @@ function Home() {
         alert("Your Email has been sent!")
     }
 
+    function scroller() {
+        let scroll = document.getElementById("scrollToMe")
+        scroll.scrollIntoView()
+    }
+
     return (
         <div>
             <div>
@@ -46,7 +51,7 @@ function Home() {
                 </div>
             </div>
             <div className="annuityBtn">
-                <button>Find The Right Annuity!</button>
+                <button onClick={scroller}>Find The Right Annuity!</button>
             </div>
             <div className="businessTitle">
                 <h1>Abrahamsen Financial Group</h1>
@@ -107,7 +112,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="mainFormDiv">
+            <div className="mainFormDiv" id="scrollToMe">
                 <div className=" card userForm">
                     <div className="card-body">
                         <form onSubmit={sendEmail}>
@@ -181,7 +186,7 @@ function Home() {
                 </div>
             </div>
             <div className="annuityBtn">
-                <button>Find The Right Annuity</button>
+                <button onClick={scroller}>Find The Right Annuity</button>
             </div>
             <br />
         </div>

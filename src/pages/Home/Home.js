@@ -14,8 +14,8 @@ function Home() {
             }, (error) => {
                 console.log(error.text);
             });
-            e.target.reset()
-            alert("Your Email has been sent!")
+        e.target.reset()
+        alert("Your Email has been sent!")
     }
 
     return (
@@ -139,15 +139,15 @@ function Home() {
                 <div className="testi">
                     <div>
                         <p className="antMorg">"I was impressed with the level of knowledge they had. The growth annuity we ended up getting was perfect for our retirement plan and we didn't have to replace our other advisors to work with them."</p>
-                        <p className="antMorg">- Anthony and Morgan Parrino</p> <p className="antMorgcity">Belmar, New Jersey</p>
+                        <p className="antMorg2">- Anthony and Morgan Parrino</p> <p className="antMorgcity">Belmar, New Jersey</p>
                     </div>
                     <div>
                         <p className="antMorg">"They showed me how to protect a significant portion of my assets while still getting serious growth using annuities. I highly recommend them to anyone looking to add some safety to their plan without having to keep money in the bank at .5%!"</p>
-                        <p className="antMorg">- Kevin and Katie Clark</p> <p className="antMorgcity"> Ocean Township, New Jersey</p>
+                        <p className="antMorg2">- Kevin and Katie Clark</p> <p className="antMorgcity"> Ocean Township, New Jersey</p>
                     </div>
                     <div>
                         <p className="antMorg">"They definitely know their stuff! I finally have peace of mind knowing my money is safe."</p>
-                        <p className="antMorg">- Michael and Jennifer Clayton</p> <p className="antMorgcity"> Colts Neck, New Jersey</p>
+                        <p className="antMorg2">- Michael and Jennifer Clayton</p> <p className="antMorgcity"> Colts Neck, New Jersey</p>
                     </div>
                 </div>
             </div>
@@ -180,6 +180,10 @@ function Home() {
                     <p className="whatIsAnnuText"><strong>Fills in the gaps - </strong>Sometimes pensions, IRAs and Social Security don’t provide enough income for you to live the way you want during retirement. A fixed index annuity can help supplement your retirement income.</p>
                 </div>
             </div>
+            <div className="annuityBtn">
+                <button>Find The Right Annuity</button>
+            </div>
+            <br />
         </div>
     )
 }

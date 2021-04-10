@@ -3,6 +3,7 @@ import Boat from "./bluewater.jpg";
 import "./home.css";
 import emailjs from "emailjs-com";
 
+
 function Home() {
 
     function sendEmail(e) {
@@ -15,7 +16,9 @@ function Home() {
                 console.log(error.text);
             });
         e.target.reset()
-        alert("Your Email has been sent!")
+        setTimeout(() => {
+            window.location.href = "/thankyou"
+        }, 500);
     }
 
     function scroller() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import RoysLogo from "./royslogo.png";
+import RoysLogo from "./RoysLogoImg2.PNG";
 import "./royslogo.css";
 
 function RoysLogoImg() {

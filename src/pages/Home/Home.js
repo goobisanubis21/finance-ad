@@ -41,8 +41,8 @@ function Home() {
                 <div className="boxDivs">
                     <div className="card percentageBox leftBox">
                         <div className="card-body">
-                            <p className="bigandthick">8.1%</p>
-                            <p>Average Return</p>
+                            <p className="bigandthick">100%</p>
+                            <p>Protected Wealth</p>
                         </div>
                     </div>
                     <div className="card percentageBox rightBox">
